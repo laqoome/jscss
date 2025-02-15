@@ -22,12 +22,11 @@ var changeElements = [
 {name: "cloudflare_analytics", action: "remove"},
 {name: "Softaculous Apps Installer", action: "remove"},
 {action: "remove", name: "accounts"},
-
+{name: "two_factor_authentication", action: "remove"},
 {name: "forwarders", action: "remove"},
-
+{name: "user_manager", action: "remove"},
 {name: "disk_usage", action: "remove"},
 {name: "ftp_accounts", action: "remove"},
-{name: "file_manager", action: "remove"},
 {name: "change_password", action: "remove"},
 {name: "change_language", action: "remove"},
 {name: "attracta_seotools", action: "remove"},
@@ -39,6 +38,6 @@ var changeElements = [
 {name: "postgresql_databases", action: "remove"},    
 
 {name: "自定义域名绑定获取ssl方法", action: "add", group: "support", link: "https://note.youdao.com/s/ashGInTl",icon: "https://seekicon.com/free-icon-download/database-cloud_1.png",search_text: "domain"},
-{name: "文件上传及zip解压方法", action: "add", group: "support", link: "https://note.youdao.com/s/ashGInTl",icon: "https://seekicon.com/free-icon-download/database-cloud_1.png", search_text: "zip"}
+{name: "文件上传及zip解压方法", action: "add", group: "support", link: "https://note.youdao.com/s/ashGInTl"icon: "https://seekicon.com/free-icon-download/database-cloud_1.png", search_text: "zip"}
 ];
 document.write ("");
